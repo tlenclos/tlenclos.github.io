@@ -412,15 +412,12 @@ span#header-lastname {
     height: 600px;
 }
 
-#contact-wrapper {
-    position: absolute;
-    top: 200px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-}
-
 #contact-infos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -100px;
     text-align: left;
     font-size: 1.5em;
     display: inline-block;

@@ -53,6 +53,7 @@ a, a:hover, a:visited, a:active, a:focus,
 .pure-menu a {
    border:none;
    outline:none;
+    text-decoration: none;
 }
 
 a:hover {
@@ -63,7 +64,7 @@ header {
     font-size: 1.4em;
 }
 
-header nav {
+header ul {
     float: right;
 }
 
@@ -432,6 +433,14 @@ span#header-lastname {
     border-radius: 8px;
     background: #111111; /* IE<9 Fallback */
     background: rgba(0,0,0,0.8);
+}
+
+#contact-infos a {
+    color: #d3d3d3;
+}
+
+#contact-infos a:hover {
+    color: white;
 }
 
 body #contact-infos p {

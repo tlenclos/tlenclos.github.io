@@ -50,8 +50,7 @@
     <header>
         <div id="sub-header" class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
             <a class="pure-menu-heading" href="#start"><span id="header-firstname">THIBAULT</span> <span id="header-lastname">LENCLOS</span></a>
-
-            <nav>
+            <ul>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#hobbies">Hobbies</a></li>
@@ -60,17 +59,19 @@
                 <li><a href="#">Resume</a></li>
                 -->
                 <li><a href="https://github.com/thibzy" class="external"><i class="icon-github"></i> Github</a></li>
-            </nav>
+            </ul>
         </div>
     </header>
 
     <div id="main">
         <div id="start">
-            <div id="thibz">
+            <div id="thibz" itemscope itemtype="http://schema.org/Person">
                 <p>
-                    <span id="info-firstname">Thibault</span>
-                    <span id="info-lastname">Lenclos</span>
-                    <span id="info-activity">Web & Mobile Developer</span>
+                    <span itemprop="name">
+                        <span id="info-firstname">Thibault</span>
+                        <span id="info-lastname">Lenclos</span>
+                    </span>
+                    <span id="info-activity" itemprop="title">Web & Mobile Developer</span>
                 </p>
                 <p>
                     <span id="info-schoolcity">Student in Paris at</span>
@@ -79,7 +80,7 @@
                 </p>
                 <p>
                     <span id="info-developer">Developer at <i class="icon-coffee-2"></i></span>
-                    <span id="info-agencyname"><a href="http://www.mentalworks.fr">Mental works</a></span>
+                    <span id="info-agencyname" itemprop="affiliation"><a href="http://www.mentalworks.fr">Mental works</a></span>
                     <span id="info-workplace">Web agency in Compiegne (60)</span>
                 </p>
                 <p>
@@ -235,9 +236,21 @@
             <div id="contact-map"></div>
             <div id="contact-wrapper">
                 <div id="contact-infos">
-                    <p><i class="icon-envelope"></i> thibault.lenclos@gmail.com</p>
-                    <p><i class="icon-phone"></i> +33 6 51 57 20 86</p>
-                    <p><i class="icon-location"></i> 43 rue du prêtre 60280 VENETTE</p>
+                    <p id="email">
+                        <i class="icon-envelope"></i> Enable javascript to email me
+                    </p>
+                    <p>
+                        <i class="icon-phone"></i>
+                        <a href="tel:+33651572086">+33 6 51 57 20 86</a>
+                    </p>
+                    <p>
+                        <i class="icon-location"></i>
+                        <span itemscope itemtype="http://schema.org/PostalAddress">
+                            <span itemprop="street-address">43 rue du prêtre</span>
+                            <span itemprop="postal-code">60280</span>
+                            <span itemprop="locality">VENETTE</span>
+                        </span>
+                    </p>
                 </div>
             </div>
         </div>

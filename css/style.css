@@ -89,10 +89,6 @@ span#header-lastname {
     background-color: #252525;
 }
 
-.pure-menu.pure-menu-open, .pure-menu.pure-menu-horizontal>ul {
-    height: 2.5em;
-}
-
 .pure-menu li a {
     padding: 10px 20px;
 }
@@ -115,6 +111,12 @@ span#header-lastname {
 
 #main {
     margin: 4em 0 0 0;
+}
+
+@media only screen and (max-width: 735px) {
+    #main {
+        margin: 8em 0 0 0;
+    }
 }
 
 #main>div:not(:last-child) {

@@ -68,6 +68,10 @@ header ul {
     float: right;
 }
 
+.pure-menu li a {
+    line-height: 1.8em;
+}
+
 #sub-header {
     z-index: 200;
 }
@@ -112,12 +116,6 @@ span#header-lastname {
 
 #main {
     margin: 4em 0 0 0;
-}
-
-@media only screen and (max-width: 735px) {
-    #main {
-        margin: 8em 0 0 0;
-    }
 }
 
 #main>div:not(:last-child) {
@@ -450,4 +448,10 @@ body #contact-infos p {
 
 #contact-infos i {
     margin-right: 5px;
+}
+
+@media only screen and (max-width: 735px) {
+    #main {
+        margin: 8em 0 0 0;
+    }
 }

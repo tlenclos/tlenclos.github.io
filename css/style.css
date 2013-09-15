@@ -1,0 +1,442 @@
+/* Global */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/HqHm7BVC_nzzTui2lzQTDT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/-g5pDUSRgvxvOl5u-a_WHw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/bH7276GfdCjMjApa_dkG6T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+.tag {
+    background-color: grey;
+    padding: 2px 5px;
+    color: white;
+    font-size: 0.8em;
+}
+
+body {
+    background-color: #111111;
+}
+
+body, p {
+    font-family: 'bebas_neueregular';
+    color : #d3d3d3;
+}
+
+a, a:hover, a:visited, a:active, a:focus,
+.pure-menu a {
+   border:none;
+   outline:none;
+}
+
+a:hover {
+    color: white;
+}
+
+header {
+    font-size: 1.4em;
+}
+
+header nav {
+    float: right;
+}
+
+#sub-header {
+    z-index: 200;
+}
+
+.pure-menu .pure-menu-heading {
+    font-size: 1.5em;
+}
+
+/* #bebebe TO #9a9a9a */
+span#header-firstname {
+    color: #FFF;
+}
+
+/* #555555 TO #454545 */
+span#header-lastname {
+    color: #CCC;
+}
+
+.pure-menu.pure-menu-open {
+    background-color: #252525;
+}
+
+.pure-menu.pure-menu-open, .pure-menu.pure-menu-horizontal>ul {
+    height: 2.5em;
+}
+
+.pure-menu li a {
+    padding: 10px 20px;
+}
+
+.pure-menu li a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.pure-menu.pure-menu-open.pure-menu-fixed {
+    border: none;
+}
+
+.pure-menu .pure-menu-selected a,
+.pure-menu .pure-menu-selected a:active,
+.pure-menu .pure-menu-selected a:focus {
+    color: #d33e3e;
+    background-color: transparent;
+}
+
+#main {
+    margin: 4em 0 0 0;
+}
+
+#main>div:not(:last-child) {
+    min-height: 800px;
+    margin-bottom: 150px;
+}
+
+/* Skills */
+.s10 {
+    width: 10%;
+}
+
+.s20 {
+    width: 20%;
+}
+
+.s30 {
+    width: 30%;
+}
+
+.s40 {
+    width: 40%;
+}
+
+.s50 {
+    width: 50%;
+}
+
+.s60 {
+    width: 60%;
+}
+
+.s70 {
+    width: 70%;
+}
+
+.s80 {
+    width: 80%;
+}
+
+/* START */
+#thibz {
+    width: 380px;
+    margin: auto;
+}
+
+#thibz a {
+    color: #a6a6a6;
+    text-decoration: none;
+}
+
+#thibz a:hover {
+    color: white;
+}
+
+#thibz p {
+    margin: 0 0 20px 0;
+}
+
+#thibz span {
+    display: block;
+    text-align: center;
+}
+
+#info-firstname, #info-lastname {
+    font-size: 8.4em;
+    line-height: 0.7em;
+}
+
+#info-firstname {
+    letter-spacing: -1px;
+    color: #aeaeae;
+}
+
+#info-lastname {
+    padding-left: 10px;
+    letter-spacing: 2px;
+    color: #5b5b5b;
+    margin-top: 8px;
+}
+
+#info-activity {
+    font-size: 2.7em;
+    word-spacing: 2px;
+    color: #bababa;
+}
+
+#info-schoolcity {
+    color: white;
+    font-size: 3.2em;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+#thibz span#info-schoolname {
+    font-size: 8.4em;
+    margin-top: -25px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#info-schoolname i {
+    color: #3d3d3d;
+    font-size: 0.9em;
+}
+
+#info-schooltype {
+    font-size: 2.4em;
+    margin-top: -20px;
+}
+
+#info-developer {
+    font-size: 3.5em;
+}
+
+#info-developer i {
+    font-size: 1.4em;
+    color: #3d3d3d;
+}
+
+#info-agencyname {
+    font-size: 4.5em;
+    color: #a6a6a6;
+    margin-top: -12px;
+}
+
+#info-workplace {
+    font-size: 2.2em;
+    margin-top: -10px;
+}
+
+#info-freelance {
+    font-size: 4.5em;
+}
+
+#info-freelance i {
+    font-size: 1.4em;
+    color: #3d3d3d;
+}
+
+#info-goodguy {
+    font-size: 1.9em;
+    margin-top: -6px;
+}
+
+/* SKILLS */
+#skills p {
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin : 5px;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+#skills p:hover {
+    background-color: red;
+    color: white;
+}
+
+#skills-left {
+    text-align: right;
+}
+
+#skills-left p {
+    margin-right: 10px;
+    float: right;
+}
+
+#skills-right {
+    text-align: left;
+}
+
+#skills-right p {
+    margin-left: 10px;
+    float: left;
+}
+
+#skills-left div, #skills-right div {
+    clear: both;
+}
+
+/* WORK */
+#work, #hobbies {
+    width: 630px;
+    margin: auto;
+}
+
+#work a {
+    color: #d33e3e;
+}
+
+#work>div {
+    width: 300px;
+    margin: 0 5px 0 5px;
+}
+
+#work>div>div {
+    height: 300px;
+    margin-bottom: 10px;
+    overflow:hidden;
+    position:relative;
+}
+
+#work>div>div img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+#work>div>div .overlay {
+    background: #111111; /* IE<9 Fallback */
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    left: 0;
+    height: 300px;
+    width: 300px;
+    padding: 0 10px;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#work>div>div:hover .overlay {
+    opacity: 1;
+}
+
+#work>div>div .overlay h3 {
+    font-size: 1.7em;
+    line-height: 0.2em;
+}
+
+#work>div>div .overlay p {
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* HOBBIES */
+#hobbies>div {
+    width: 300px;
+}
+
+#hobbies h2, #contact h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+#hobbies a {
+    text-decoration: none;
+    color : #d3d3d3;
+}
+
+#hobbies p:hover a, #hobbies a:hover {
+    color: #d33e3e;
+}
+
+#hobbies p {
+    font-size: 2em;
+    text-align: center;
+}
+
+#hobbies i {
+    font-size: 6em;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+/* CONTACT */
+#contact {
+    position: relative;
+}
+
+#contact-map {
+    border-top: 2px solid grey;
+}
+
+#contact-map {
+    margin: 0;
+    padding: 0;
+    height: 600px;
+}
+
+#contact-wrapper {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#contact-infos {
+    text-align: left;
+    font-size: 1.5em;
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    padding: 10px 20px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    background: #111111; /* IE<9 Fallback */
+    background: rgba(0,0,0,0.8);
+}
+
+body #contact-infos p {
+    font-family: 'Oswald', sans-serif;
+    text-transform: lowercase;
+}
+
+#contact-infos i {
+    margin-right: 5px;
+}

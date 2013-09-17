@@ -64,6 +64,10 @@ header {
     font-size: 1.4em;
 }
 
+header .pure-menu-heading {
+    float: left;
+}
+
 header ul {
     float: right;
 }

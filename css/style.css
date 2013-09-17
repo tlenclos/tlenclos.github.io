@@ -119,12 +119,18 @@ span#header-lastname {
 }
 
 #main {
-    margin: 4em 0 0 0;
+    margin: 5em 0 0 0;
 }
 
 #main>div:not(:last-child) {
     min-height: 800px;
     margin-bottom: 150px;
+}
+
+#main>div h2 {
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
 }
 
 /* Skills */
@@ -373,11 +379,6 @@ span#header-lastname {
 /* HOBBIES */
 #hobbies>div {
     width: 300px;
-}
-
-#hobbies h2, #contact h2 {
-    font-size: 3em;
-    text-align: center;
 }
 
 #hobbies a {

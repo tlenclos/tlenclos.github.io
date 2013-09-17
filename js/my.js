@@ -5,7 +5,7 @@ $(document).ready(function() {
         filter: ':not(.external)',
         changeHash: false,
         scrollSpeed: 850,
-        scrollOffset: 60,
+        scrollOffset: 70,
         scrollThreshold: 0.5,
         easing: 'swing',
         filter: ':not(.external)'

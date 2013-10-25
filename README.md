@@ -1,2 +1,3 @@
-thibzy.github.io
+thibz.com
 ================
+My personnal portfolio.

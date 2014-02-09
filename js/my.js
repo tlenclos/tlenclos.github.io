@@ -18,6 +18,12 @@ $(document).ready(function() {
         }, 1500);
     });
 
+    // Mobile device?
+    var isMobile = navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i);
+    if (isMobile) {
+        $('#work>div>div .overlay').css('opacity', 1);
+    }
+
     // Google maps (lazy load)
     (function (w) {
         var d = w.document,

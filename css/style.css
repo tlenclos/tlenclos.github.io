@@ -42,6 +42,8 @@
 
 body {
     background-color: #111111;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 body, p {
@@ -321,12 +323,12 @@ span#header-lastname {
 
 #work>div {
     width: 300px;
-    margin: 0 5px 0 5px;
+    padding: 0 5px 0 5px;
 }
 
 #work>div>div {
     height: 300px;
-    margin-bottom: 10px;
+    margin: 0 auto 10px auto;
     overflow:hidden;
     position:relative;
 }
@@ -362,7 +364,7 @@ span#header-lastname {
     box-sizing: border-box;
 }
 
-#work>div>div:hover .overlay {
+#work>div>div:hover .overlay, #work>div>div:hover .overlay {
     opacity: 1;
 }
 
@@ -379,6 +381,10 @@ span#header-lastname {
 /* HOBBIES */
 #hobbies>div {
     width: 300px;
+}
+
+#hobbies>div>div {
+    margin: auto;
 }
 
 #hobbies a {
@@ -409,9 +415,6 @@ span#header-lastname {
 
 #contact-map {
     border-top: 2px solid grey;
-}
-
-#contact-map {
     margin: 0;
     padding: 0;
     height: 600px;
@@ -452,8 +455,59 @@ body #contact-infos p {
     margin-right: 5px;
 }
 
+/* Responsive fun here */
 @media only screen and (max-width: 735px) {
     #main {
         margin: 8em 0 0 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* Hide menu under 500px, enjoy the scroll */
+    header {
+        display: none;
+    }
+
+    #main {
+        margin: 1em 0 0 0;
+    }
+}
+
+@media screen and (max-width: 638px) {
+    /* TODO Find why it creates an horizontal scrollbar */
+    #thibz span, #thibz span#info-schoolname, #info-schoolname i {
+        zoom: 80%; /* Hem hem */
+    }
+
+    #contact-infos {
+        /* TODO Change position type */
+        left: 0;
+        top: 40%;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #thibz span#info-schoolname {
+        text-align: center;
+    }
+
+    #work, #hobbies {
+        width: 100%;
+    }
+
+    #work>div, #hobbies>div {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #work>div>div, #hobbies>div>div {
+        width: 300px;
     }
 }

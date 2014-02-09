@@ -22,13 +22,7 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-/* Use the following CSS code if you want to have a class per icon */
-/*
-Instead of a list of all class selectors,
-you can use the generic selector below, but it's slower:
-[class*="icon-"] {
-*/
-.icon-phone, .icon-phone-2, .icon-envelope, .icon-envelope-alt, .icon-moto2, .icon-map-marker, .icon-location, .icon-headphones, .icon-headphones-2, .icon-gamepad, .icon-graduation, .icon-coffee, .icon-coffee-2, .icon-puzzle, .icon-github-alt, .icon-github, .icon-cross, .icon-remove-sign, .icon-file-alt, .icon-file, .icon-camera, .icon-facetime-video {
+[class^="icon-"], [class*=" icon-"] {
 	font-family: 'ThibzFont';
 	speak: none;
 	font-style: normal;
@@ -36,7 +30,10 @@ you can use the generic selector below, but it's slower:
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
+
+	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 .icon-phone:before {
 	content: "\f095";
@@ -103,4 +100,19 @@ you can use the generic selector below, but it's slower:
 }
 .icon-facetime-video:before {
 	content: "\f03d";
+}
+.icon-facebook:before {
+	content: "\e600";
+}
+.icon-android:before {
+	content: "\e601";
+}
+.icon-windows8:before {
+	content: "\e602";
+}
+.icon-apple:before {
+	content: "\e603";
+}
+.icon-linkedin:before {
+	content: "\e604";
 }

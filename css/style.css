@@ -430,7 +430,6 @@ span#header-lastname {
     font-size: 1.5em;
     display: inline-block;
     width: 350px;
-    height: 200px;
     padding: 10px 20px;
     border: 2px solid grey;
     border-radius: 8px;
@@ -453,6 +452,12 @@ body #contact-infos p {
 
 #contact-infos i {
     margin-right: 5px;
+}
+
+#social-links {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
 }
 
 /* Responsive fun here */

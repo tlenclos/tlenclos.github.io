@@ -2,7 +2,10 @@ var fs = require('fs');
 var through = require("through");
 var cvDirectory = 'cv/';
 var cvHtmlFile = cvDirectory+'cv.html';
-fs.unlinkSync(cvHtmlFile);
+try {
+  fs.unlinkSync(cvHtmlFile);
+} catch (e) {};
+
 
 function md_title1(value) {
     return '# '+value+' #\n';
@@ -119,6 +122,7 @@ module.exports = function(grunt) {
     },
     markdownpdf: {
       options: {
+          cssPath: '../../../../../css/githubmd.css',
           preProcessHtml: function () {
             return through(function (data) {
                 fs.appendFile(cvHtmlFile, data);

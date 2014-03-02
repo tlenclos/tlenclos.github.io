@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Lenclos Thibault - Web & mobile developer>
+  <Profile>
+    <Name>Lenclos Thibault</Name>
+    <Status>Employee at MentalWorksstudent at ESGIFreelance</Status>
+    <Telephone>0684406246</Telephone>
+    <Address>43 rue du prêtre, 60280 Venette</Address>
+    <Email>thibault.lenclos@gmail.com</Email>
+  </Profile>
+  <Studies>2012-2014Sandwich training master of mobile application engineering, good position.2011-2012Sandwich training bachelor of web development, good position.2009-2011DUT Networks and services of communication at IUT of Champs sur Marne2007-2009College Charles de Gaulle, scientific baccalaureate, good distinction</Studies>
+  <Professional experiences>2012-2014Web and mobile developer in the web agency MentalWorks (Zend Framework, Titanium, Symfony2)2011-2012Web developer in the web agency MentalWorks (Zend Framework, Titanium, Laravel)May - July 2011Internship in the web agency MentalWorks (Zend Framework)</Professional experiences>
+  <Skills>
+    <Language>PHPJavascriptJava/AndroidC/C++Objective CC#XML/JSONHtml/Twig/BladeCSS/Sass</Language>
+    <Framework / Environnement>Git/SVNLinux/Windows/MacTitaniumSymfony2Zend FrameworkLaravelJqueryNode JSApachePhotoshop</Framework / Environnement>
+  </Skills>
+  <Hobbies>
+    <Motorbike>Riding with love since 2012</Motorbike>
+    <Gaming>Playing various of games, mostly indies</Gaming>
+    <Guitar>Self learning little by little</Guitar>
+    <Tv shows>Every, damn, shows</Tv shows>
+  </Hobbies>
+  <Links>
+    <Portfolio>http://thibz.com</Portfolio>
+    <Github>https://github.com/tlenclos</Github>
+    <LinkedIn>http://fr.linkedin.com/pub/thibault-lenclos/40/378/828</LinkedIn>
+  </Links>
+</Lenclos Thibault - Web & mobile developer>

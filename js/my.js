@@ -66,4 +66,39 @@ $(document).ready(function() {
 
     m = '<i class="icon-envelope"></i> '+m;
     $('#contact-infos p#email').html(m);
+
+    // CV
+    $("#tabs").tabs({
+        heightStyle: "content",
+        beforeLoad: function (event, ui) {
+            var url = ui.ajaxSettings.url;
+            var fileExtension = url.split('.').pop();
+
+            if ($.inArray(fileExtension, ['json', 'xml', 'md', 'html']) >= 0) {
+                var classCode = null;
+                if ('json' == fileExtension)
+                    classCode = 'js'
+                if ('xml' == fileExtension || 'html' == fileExtension)
+                    classCode = 'xml'
+
+                $.ajax({
+                    url: url,
+                    dataType: "text",
+                    success: function (data) {
+                        if (classCode)
+                            data = '<pre class="brush: '+classCode+'">'+data+'</pre>';
+                        else
+                            data = '<pre class="'+fileExtension+'">'+data+'</pre>';
+
+                        data = '<a href="'+url+'" class="downloadCv"><i class="icon-file"></i> Download</a>'+data;
+
+                        ui.panel.html(data);
+                        SyntaxHighlighter.highlight()
+                    }
+                });
+
+                return false;
+            }
+        }
+    });
 });

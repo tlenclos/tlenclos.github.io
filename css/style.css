@@ -312,7 +312,7 @@ span#header-lastname {
 }
 
 /* WORK */
-#work, #hobbies {
+#work, #hobbies1 {
     width: 630px;
     margin: auto;
 }
@@ -379,29 +379,29 @@ span#header-lastname {
 }
 
 /* HOBBIES */
-#hobbies>div {
+#hobbies1>div {
     width: 300px;
 }
 
-#hobbies>div>div {
+#hobbies1>div>div {
     margin: auto;
 }
 
-#hobbies a {
+#hobbies1 a {
     text-decoration: none;
     color : #d3d3d3;
 }
 
-#hobbies p:hover a, #hobbies a:hover {
+#hobbies1 p:hover a, #hobbies1 a:hover {
     color: #d33e3e;
 }
 
-#hobbies p {
+#hobbies1 p {
     font-size: 2em;
     text-align: center;
 }
 
-#hobbies i {
+#hobbies1 i {
     font-size: 6em;
     width: 100%;
     display: block;
@@ -460,6 +460,69 @@ body #contact-infos p {
     margin: 0;
 }
 
+/* Resume */
+.downloadCv {
+    position: absolute;
+    color: white;
+    right: 30px;
+    top: 10px;
+    z-index: 150;
+    display: block;
+    background-color: #111111;
+    padding: 5px 10px;
+    font-size: 1.2em;
+}
+
+.ui-tabs-panel {
+    overflow: auto;
+    position: relative;
+}
+
+pre {
+    margin: 0;
+}
+
+pre.md {
+    padding: 20px;
+}
+
+.syntaxhighlighter {
+    margin: 0 !important;
+    overflow: hidden !important;
+}
+
+ul.ui-tabs-nav li {
+    display: inline-block;
+    width: 19%;
+}
+
+ul.ui-tabs-nav li a {
+    display: block;
+    line-height: 1.8em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+ul.ui-tabs-nav li a,
+ul.ui-tabs-nav li a:visited,
+ul.ui-tabs-nav li a:active,
+ul.ui-tabs-nav li a:focus {
+    color: #777;
+}
+
+ul.ui-tabs-nav li.ui-tabs-active a {
+    color: #d33e3e;
+}
+
+ul.ui-tabs-nav li a:hover {
+    color: white;
+}
+
+#pdf object {
+    height: 500px;
+    width: 100%;
+}
+
 /* Responsive fun here */
 @media only screen and (max-width: 735px) {
     #main {
@@ -501,18 +564,18 @@ body #contact-infos p {
         text-align: center;
     }
 
-    #work, #hobbies {
+    #work, #hobbies1 {
         width: 100%;
     }
 
-    #work>div, #hobbies>div {
+    #work>div, #hobbies1>div {
         width: 100%;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
 
-    #work>div>div, #hobbies>div>div {
+    #work>div>div, #hobbies1>div>div {
         width: 300px;
     }
 }

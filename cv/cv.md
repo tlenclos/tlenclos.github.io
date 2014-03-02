@@ -12,9 +12,9 @@ Employee at MentalWorks, student at ESGI, Freelance.
 **Email**: thibault.lenclos@gmail.com.
 
 ## Studies ##
- 2012-2014 - Sandwich training master of mobile application engineering, good position.
+ 2012-2014 - Sandwich training master of mobile application engineering, good distinction.
 
- 2011-2012 - Sandwich training bachelor of web development, good position.
+ 2011-2012 - Sandwich training bachelor of web development, good distinction.
 
  2009-2011 - DUT Networks and services of communication at IUT of Champs sur Marne.
 
@@ -37,7 +37,7 @@ Git/SVN, Linux/Windows/Mac, Titanium, Symfony2, Zend Framework, Laravel, Jquery,
 ## Hobbies ##
 **Motorbike**: Riding with love since 2012.
 
-**Gaming**: Playing various of games, mostly indies.
+**Gaming**: Playing various games, mostly indies.
 
 **Guitar**: Self learning little by little.
 

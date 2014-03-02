@@ -70,24 +70,37 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       build: {
-        src: 'js/*.js',
-        dest: 'build/script.min.js'
+        files: {
+            'build/script.min.js': [
+                'js/jquery-1.10.2.min.js',
+                'js/jquery-ui-1.10.4.custom.min.js',
+                'js/jquery.easing.1.3.js',
+                'js/jquery.scrollTo.js',
+                'js/jquery.nav.js',
+                'js/shCore.js',
+                'js/shBrushXml.js',
+                'js/shBrushJScript.js',
+                'js/my.js'
+            ]
+        }
       }
     },
     recess: {
-        dist: {
-            options: {
-                compile: true,
-                compress: true
-            },
-            files: {
-                'build/styles.css': [
-                    'css/icons.css',
-                    'css/pure-min.css',
-                    'css/style.css'
-                ]
-            }
-        }
+      dist: {
+          options: {
+              compile: true,
+              compress: true
+          },
+          files: {
+              'build/styles.css': [
+                  'css/icons.css',
+                  'css/pure-min.css',
+                  'css/shCore.css',
+                  'css/shThemeRDark.css',
+                  'css/style.css'
+              ]
+          }
+      }
     },
     convert: {
       options: {

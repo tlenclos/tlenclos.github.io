@@ -2,7 +2,10 @@ var fs = require('fs');
 var through = require("through");
 var cvDirectory = 'cv/';
 var cvHtmlFile = cvDirectory+'cv.html';
-fs.unlinkSync(cvHtmlFile);
+try {
+  fs.unlinkSync(cvHtmlFile);
+} catch (e) {};
+
 
 function md_title1(value) {
     return '# '+value+' #\n';
@@ -70,24 +73,37 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       build: {
-        src: 'js/*.js',
-        dest: 'build/script.min.js'
+        files: {
+            'build/script.min.js': [
+                'js/jquery-1.10.2.min.js',
+                'js/jquery-ui-1.10.4.custom.min.js',
+                'js/jquery.easing.1.3.js',
+                'js/jquery.scrollTo.js',
+                'js/jquery.nav.js',
+                'js/shCore.js',
+                'js/shBrushXml.js',
+                'js/shBrushJScript.js',
+                'js/my.js'
+            ]
+        }
       }
     },
     recess: {
-        dist: {
-            options: {
-                compile: true,
-                compress: true
-            },
-            files: {
-                'build/styles.css': [
-                    'css/icons.css',
-                    'css/pure-min.css',
-                    'css/style.css'
-                ]
-            }
-        }
+      dist: {
+          options: {
+              compile: true,
+              compress: true
+          },
+          files: {
+              'build/styles.css': [
+                  'css/icons.css',
+                  'css/pure-min.css',
+                  'css/shCore.css',
+                  'css/shThemeRDark.css',
+                  'css/style.css'
+              ]
+          }
+      }
     },
     convert: {
       options: {
@@ -106,6 +122,7 @@ module.exports = function(grunt) {
     },
     markdownpdf: {
       options: {
+          cssPath: '../../../../../css/githubmd.css',
           preProcessHtml: function () {
             return through(function (data) {
                 fs.appendFile(cvHtmlFile, data);

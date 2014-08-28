@@ -34,20 +34,20 @@ $(document).ready(function() {
         );
         d.documentElement.firstChild.appendChild(script);
         w.mapOnLoad = function () {
-            var adress = new google.maps.LatLng(49.4160641, 2.8016844);
+            var adress = new google.maps.LatLng(48.8630790, 2.3802174);
             var mapOptions = {
                 scrollwheel: false,
                 navigationControl: false,
                 mapTypeControl: false,
                 streetViewControl: false,
-                zoom: 12,
-                center: new google.maps.LatLng(49.4160641, 2.9016844),
+                zoom: 16,
+                center: adress,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
             map = new google.maps.Map(d.getElementById('contact-map'), mapOptions);
             var marker = new google.maps.Marker({
                   position: adress,
-                  map: map,
+                  map: map
             });
         };
     }(window));

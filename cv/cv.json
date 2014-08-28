@@ -2,9 +2,9 @@
     "Lenclos Thibault - Web & mobile developer": {
         "Profile": {
             "Name": "Lenclos Thibault",
-            "Status": ["Employee at MentalWorks", "student at ESGI", "Freelance"],
-            "Telephone": "0684406246",
-            "Address": "43 rue du prêtre, 60280 Venette",
+            "Status": ["Employee at Jolicode", "Freelance"],
+            "Telephone": "06 51 57 20 86",
+            "Address": "54 rue Saint Maur",
             "Email": "thibault.lenclos@gmail.com"
         },
         "Studies": [
@@ -14,6 +14,7 @@
             "2007-2009 - College Charles de Gaulle, scientific baccalaureate, good distinction"
         ],
         "Professional experiences": [
+            "2014 - Web consultant at Jolicode",
             "2012-2014 - Web and mobile developer in the web agency MentalWorks (Zend Framework, Titanium, Symfony2)",
             "2011-2012 - Web developer in the web agency MentalWorks (Zend Framework, Titanium, Laravel)",
             "May-July 2011 - Internship in the web agency MentalWorks (Zend Framework)"

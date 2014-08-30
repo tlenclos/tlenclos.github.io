@@ -241,16 +241,16 @@ span#header-lastname {
 }
 
 #info-agencyname {
-    font-size: 5.5em;
+    font-size: 7.2em;
     color: #a6a6a6;
     margin-top: -12px;
-    letter-spacing: 13px;
+    letter-spacing: 3px;
 }
 
 #info-workplace {
-    font-size: 2.2em;
+    font-size: 2.5em;
     margin-top: -10px;
-    word-spacing: 13px;
+    word-spacing: 3px;
 }
 
 #info-freelance {

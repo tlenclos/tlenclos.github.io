@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/thibz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thibz.com
+  * I am thibz (https://keybase.io/thibz) on keybase.
+  * I have a public key with fingerprint B69A BC85 B63D E21F E86D  9FC1 524A 4407 5362 AF09
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120d10c76bec915201100126b9c9259effa6af03cf09bbbf050c72915e1f92902140a",
+            "fingerprint": "b69abc85b63de21fe86d9fc1524a44075362af09",
+            "host": "keybase.io",
+            "key_id": "524a44075362af09",
+            "kid": "0101af7c4634f7e93be0d623b898dde1c65d06fa4bbf4f4c1283a13188f8c78d32c80a",
+            "uid": "da6d6247c48dd34bed3228dd9b421f19",
+            "username": "thibz"
+        },
+        "service": {
+            "hostname": "thibz.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1460652574,
+    "expire_in": 157680000,
+    "prev": "ad8b61698732cad1667f407ff5b3eb64cb2634585463714672cf451b18e32ed8",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMNkAnicbZJ7UBVVHMd5hhKEU2ISI8ViMgjinn3vBSMIByLjjYQDXfbsnoWdC/cN
+KMTDRqWLPSSwCBu4ZcgUJWY4TdFcBvAPx8xKR5vECnAYoTQYzRslXDuXyZn+aP/Z
+Pb/9fj/ne75zTof6+wT75melBxXAwdW+X4+21/gUh52NaiCgSdlD6BoIA1p5oSoF
+2ex6g6YQOoIEFKkAUuY5iGQRsBQJAImHHBRlkWJFpKoSJ6kkLaukCCFUSRaLKaxE
+QBUpkaQAQ0pEAqFqxgpkNVs1ox1jISdKUBZYyNEKooCKBE4RVRnzGYlhSJ6lOQpT
+RWysNNm8DhwOSjaUqJnwDC/0K/H+R38/NwkklZcZjmZUHok0RKTCUTQUREFREJA5
+ViE5VWJwZEZlZEAJtARoIAiqIPOCQlOysJK7ZgWnSBx2M5iH3TQDERZQ+FOEDE4P
+vPvW2JDVKFUjrLZXarCeaEwg8KhWk5G3Ve8x/vs7UTZVY5fZarKbZFMVHlfa7Wab
+zmuz7zF7dXUI6v8l6KFmVHCD2FGLrDbNZCR0ACtlu+ZFAoYjOZZieSaBQLvNmhXp
+Na+C5TmBxI93H1SLkZIiQA5wosDjA0oK4DhexfWpKgtpBDlGhhQujBVY3BuPqTwl
+qwwLIBAQTSFFILxnshhNhE7AMaUKjLRpFUbJXmNFROPYaGmAj2+wzwOBft6b5RO8
+es39+2bJCPPQfduruJgfTs9GuW5vb+uPnC/pcEcZgtxLp/JXzbg+GF505Q0qo0oz
+uHb3m8mjS107Nr/vas9oUDd0lJ/w/yLtzUtJz2e6i8xHB+7O1jlyl55o/fjRbGnX
+wthwucecH/HL7tsteZ9MnXl7Pun63ozjm9Iy4nKPLVtmyzL9DR3b5Lwf9dxcSNOT
+yxMHZ8L74FtFzdkfHn7ny8DOX4NOWQvWvH656+XDI+P8Om2i8Dtbf1+Cr+HsZ9nm
+sCLXxcSTh2ofic052GpI5V6woC0/j8cutPELZcfHGydHnIC9lSw917w8OvPu5p6/
+Oq9UDPWef/bMuaka11cZz5iiull9lmPjSLQnfa6zcOtAy/CJN0rmqZsb99/pmPaU
+FL2SF9Iamcz2FDeFwnrjRX3xjaE/nx6PPVcf/pDQbXhp07YXLamtawd75djwgp0D
+6YUX7oS+umRM2Xf1N8/Y2oC2kh73sVWwrevCRHzXSO2Wj2Jik8s8P7UFTDmGcktD
+lq8aez/9Pe4p9/X39MU5pUlC5GPn15+s3FHc6O/ojw5MvRfx+B9+PWCxKuu1XZmp
+R8w6Z87NuOx2kDLuvIGbsZDpBdNxOX3V3wdPPthPhl1ptqy/5Pz2QHPTkZa6nSPL
+7eW97nUx3Yce3pcWkeqELQNz5srL95xb/x4O9Fv8PNgx7RhLiY+PNql7b13bv6Fz
+puofxQO6LA==
+=jQCR
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thibz
+
+==================================================================
